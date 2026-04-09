@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 229 35% 6%;
+    --foreground: 240 15% 95%;
+    --card: 270 35% 12%;
+    --muted: 270 25% 15%;
+    --muted-foreground: 240 10% 65%;
+    --primary: 280 65% 50%;
+    --primary-glow: 280 75% 60%;
+    --accent: 45 100% 50%;
+    --border: 270 30% 20%;
+    --ring: 45 100% 50%;
+    --destructive: 0 62% 30%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .cosmic-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--muted) / 0.8) 50%,
+      hsl(var(--accent)) 100%
+    );
+  }
+
+  .space-gradient {
+    background: linear-gradient(
+      180deg,
+      hsl(var(--background)) 0%,
+      hsl(var(--muted)) 50%,
+      hsl(var(--primary) / 0.3) 100%
+    );
+  }
+
+  .star-gradient {
+    background: linear-gradient(
+      45deg,
+      hsl(var(--accent)) 0%,
+      hsl(var(--primary)) 100%
+    );
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background) / 0.95) 0%,
+      hsl(var(--background) / 0.85) 100%
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-twinkle,
+  .animate-orbital,
+  .animate-float,
+  .animate-pulse-glow,
+  .animate-starfield {
+    animation: none !important;
+  }
+}
