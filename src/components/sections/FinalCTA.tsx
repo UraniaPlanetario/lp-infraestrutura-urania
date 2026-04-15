@@ -12,7 +12,7 @@ export function FinalCTA() {
 
       {/* Glow central */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px]" />
+        <div className="w-[600px] h-[600px] rounded-full bg-primary/7 blur-[120px]" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-4 sm:px-6 md:px-8 lg:px-14 text-center">
@@ -35,7 +35,7 @@ export function FinalCTA() {
         <div className="mt-10 md:mt-12">
           <a
             href={AGENDAMENTO_URL}
-            className="inline-flex items-center justify-center gap-3 h-16 px-10 md:px-14 rounded-lg bg-primary text-primary-foreground font-heading font-bold text-lg md:text-xl shadow-xl shadow-primary/40 hover:scale-105 hover:shadow-primary/60 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="inline-flex items-center justify-center gap-3 h-16 px-10 md:px-14 rounded-lg bg-primary text-primary-foreground font-heading font-bold text-lg md:text-xl shadow-xl shadow-primary/28 hover:scale-105 hover:shadow-primary/42 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             <Calendar className="h-6 w-6" aria-hidden="true" />
             Agendar videochamada

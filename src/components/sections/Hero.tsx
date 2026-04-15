@@ -16,34 +16,56 @@ export function Hero() {
     >
       <StarryBackground count={120} />
 
-      <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 md:px-8 lg:px-14 pt-16 md:pt-20 pb-16 md:pb-20 w-full text-center">
+      <div className="relative z-10 mx-auto max-w-4xl lg:max-w-7xl px-4 sm:px-6 md:px-8 lg:px-14 pt-14 md:pt-16 pb-14 md:pb-16 w-full text-center">
         {/* Microtexto institucional */}
-        <p className="text-[10px] sm:text-xs font-heading font-medium tracking-[0.2em] uppercase text-foreground/70 mb-4 md:mb-6">
+        <p className="text-[10px] sm:text-xs font-heading font-medium tracking-[0.2em] uppercase text-foreground/70 mb-3 md:mb-4">
           Urânia Planetários e Observatórios
         </p>
 
         {/* Headline manifesto */}
-        <h1 className="font-heading font-bold tracking-tight text-foreground text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1]">
-          A Urânia <span className="text-accent">não faz eventos.</span>
-          <span className="block mt-2 md:mt-3">
-            Construímos a 1ª{" "}
+        <h1 className="font-heading font-bold tracking-tight text-foreground text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl leading-[1.1] whitespace-normal lg:whitespace-nowrap">
+          <span className="lg:block">Construímos a 1ª</span>{" "}
+          <span className="lg:block lg:mt-2">
             <span className="text-primary">Infraestrutura de Educação Espacial</span>{" "}
             do Brasil.
           </span>
         </h1>
 
         {/* Subheadline */}
-        <p className="mt-6 md:mt-8 text-base md:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto">
-          A infraestrutura definitiva para educação espacial e científica na sua
-          escola. Um ecossistema completo que transforma conceitos abstratos em{" "}
-          <span className="text-foreground font-medium">
-            memória visual e impacto intelectual duradouro
+        <p className="mt-4 md:mt-5 text-base md:text-lg text-foreground/75 leading-relaxed max-w-2xl lg:max-w-5xl mx-auto">
+          <span className="lg:block">
+            A infraestrutura definitiva para educação espacial e científica na sua escola.
+          </span>{" "}
+          <span className="lg:block lg:mt-1">
+            Um ecossistema completo que transforma conceitos abstratos em{" "}
+            <span className="text-foreground font-medium">
+              memória visual e impacto intelectual duradouro
+            </span>
+            .
           </span>
-          .
         </p>
 
+        {/* Mídia central — vídeo institucional */}
+        <div className="mt-6 md:mt-7 mx-auto w-full max-w-3xl lg:max-w-[690px]">
+          <div className="relative aspect-video rounded-2xl border-2 border-primary/50 bg-card/40 backdrop-blur-sm overflow-hidden flex items-center justify-center">
+            {/* Glow */}
+            <div className="absolute -inset-1 rounded-2xl bg-primary/14 blur-2xl -z-10" />
+            <div className="text-center p-6">
+              <div className="mx-auto mb-4 h-16 w-16 md:h-20 md:w-20 rounded-full bg-primary/20 flex items-center justify-center">
+                <Video className="h-8 w-8 md:h-10 md:w-10 text-primary" />
+              </div>
+              <p className="text-sm text-muted-foreground">
+                {`{{video-hero-institucional}}`}
+              </p>
+              <p className="text-xs text-muted-foreground/60 mt-1">
+                Placeholder — substituir com vídeo institucional (15-30s)
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Stats inline */}
-        <div className="mt-8 md:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-6">
+        <div className="mt-6 md:mt-7 flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-6">
           {stats.map((stat) => (
             <div
               key={stat.label}
@@ -60,30 +82,11 @@ export function Hero() {
           ))}
         </div>
 
-        {/* Mídia central — vídeo institucional */}
-        <div className="mt-10 md:mt-14 mx-auto w-full max-w-3xl">
-          <div className="relative aspect-video rounded-2xl border-2 border-primary/50 bg-card/40 backdrop-blur-sm overflow-hidden flex items-center justify-center">
-            {/* Glow */}
-            <div className="absolute -inset-1 rounded-2xl bg-primary/20 blur-2xl -z-10" />
-            <div className="text-center p-6">
-              <div className="mx-auto mb-4 h-16 w-16 md:h-20 md:w-20 rounded-full bg-primary/20 flex items-center justify-center">
-                <Video className="h-8 w-8 md:h-10 md:w-10 text-primary" />
-              </div>
-              <p className="text-sm text-muted-foreground">
-                {`{{video-hero-institucional}}`}
-              </p>
-              <p className="text-xs text-muted-foreground/60 mt-1">
-                Placeholder — substituir com vídeo institucional (15-30s)
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* CTA */}
-        <div className="mt-10 md:mt-12">
+        <div className="mt-7 md:mt-9">
           <a
             href={AGENDAMENTO_URL}
-            className="inline-flex items-center justify-center gap-2 h-14 px-8 md:px-12 rounded-lg bg-primary text-primary-foreground font-heading font-semibold text-base md:text-lg shadow-lg shadow-primary/30 hover:scale-105 hover:shadow-primary/50 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="inline-flex items-center justify-center gap-2 h-14 px-8 md:px-12 rounded-lg bg-primary text-primary-foreground font-heading font-semibold text-base md:text-lg shadow-lg shadow-primary/21 hover:scale-105 hover:shadow-primary/35 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             Agendar conversa com a Urânia
           </a>

@@ -54,17 +54,17 @@ const axes = [
     icon: Dna,
     title: "Anatomia Humana",
     description: "O funcionamento sistêmico e a complexidade do corpo humano.",
-    color: "text-rose-300",
-    border: "border-rose-400/40",
-    bg: "bg-rose-500/[0.06]",
+    color: "text-indigo-300",
+    border: "border-indigo-400/40",
+    bg: "bg-indigo-500/[0.06]",
   },
   {
     icon: Bone,
     title: "Paleontologia",
     description: "A história da Terra e a evolução das espécies.",
-    color: "text-amber-300",
-    border: "border-amber-400/40",
-    bg: "bg-amber-500/[0.06]",
+    color: "text-violet-300",
+    border: "border-violet-400/40",
+    bg: "bg-violet-500/[0.06]",
   },
 ];
 
@@ -115,7 +115,7 @@ export function Technology() {
                   Placeholder — substituir com foto real do domo
                 </p>
               </div>
-              <div className="absolute -inset-1 rounded-2xl bg-primary/15 blur-xl -z-10" />
+              <div className="absolute -inset-1 rounded-2xl bg-primary/10 blur-xl -z-10" />
             </div>
           </div>
 

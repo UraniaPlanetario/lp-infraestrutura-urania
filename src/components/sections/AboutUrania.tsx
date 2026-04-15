@@ -51,11 +51,11 @@ export function AboutUrania() {
         <div className="rounded-lg border-2 border-primary/40 bg-primary/[0.03] p-5 sm:p-6 md:p-8 transition-shadow duration-200 hover:shadow-md">
           <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5">
             {/* Logo */}
-            <div className="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 ring-1 ring-primary/40 flex items-center justify-center mx-auto sm:mx-0">
+            <div className="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full ring-1 ring-primary/40 overflow-hidden mx-auto sm:mx-0">
               <img
                 src="/logo-urania.png"
                 alt="Urânia Planetários e Observatórios"
-                className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
 

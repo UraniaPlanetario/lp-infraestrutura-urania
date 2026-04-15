@@ -39,12 +39,12 @@ export default {
           "50%": { transform: "translateY(-6px)" },
         },
         "badge-glow": {
-          "0%, 100%": { boxShadow: "0 0 10px rgba(234, 179, 8, 0.12)" },
-          "50%": { boxShadow: "0 0 34px rgba(234, 179, 8, 0.54)" },
+          "0%, 100%": { boxShadow: "0 0 7px rgba(234, 179, 8, 0.08)" },
+          "50%": { boxShadow: "0 0 24px rgba(234, 179, 8, 0.38)" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 8px rgba(234, 179, 8, 0.15)" },
-          "50%": { boxShadow: "0 0 18px rgba(234, 179, 8, 0.25)" },
+          "0%, 100%": { boxShadow: "0 0 6px rgba(234, 179, 8, 0.10)" },
+          "50%": { boxShadow: "0 0 13px rgba(234, 179, 8, 0.18)" },
         },
         orbital: {
           "0%": { transform: "rotate(0deg)" },

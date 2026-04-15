@@ -1,4 +1,4 @@
-import { OutlineStars } from "../ui/OutlineStars";
+import { StarryBackground } from "../ui/StarryBackground";
 import { Telescope, Rocket, Smartphone, ArrowUpRight } from "lucide-react";
 import { APP_URANIA_CLASS_URL } from "../../lib/constants";
 
@@ -38,14 +38,14 @@ export function EcosystemPrograms() {
       id="programas"
       className="relative bg-background py-16 md:py-20 overflow-hidden"
     >
-      <OutlineStars count={12} />
+      <StarryBackground count={60} />
 
       <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 md:px-8 lg:px-14">
         {/* Título */}
         <div className="text-center mb-10 md:mb-14">
           <h2 className="font-heading font-bold tracking-tight text-foreground text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             Faz parte deste{" "}
-            <span className="text-primary">ecossistema</span>
+            <span className="text-purple-400">ecossistema</span>
           </h2>
           <p className="mt-3 text-base md:text-lg text-foreground/70 max-w-2xl mx-auto">
             A infraestrutura Urânia viabiliza programas que estendem a
@@ -61,7 +61,7 @@ export function EcosystemPrograms() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative rounded-lg border-2 border-primary/40 bg-primary/[0.06] p-5 sm:p-6 md:p-7 transition-all duration-300 hover:border-primary/70 hover:bg-primary/[0.10] hover:shadow-[0_0_30px_-5px_hsl(223,86%,55%/0.4)] hover:-translate-y-0.5"
+              className="group relative rounded-lg border-2 border-primary/40 bg-primary/[0.06] p-5 sm:p-6 md:p-7 transition-all duration-300 hover:border-primary/70 hover:bg-primary/[0.10] hover:shadow-[0_0_30px_-5px_hsl(220,58%,55%/0.28)] hover:-translate-y-0.5"
             >
               {/* Header com ícone + arrow */}
               <div className="flex items-start justify-between mb-4">

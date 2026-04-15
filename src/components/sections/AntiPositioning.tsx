@@ -31,7 +31,7 @@ export function AntiPositioning() {
           <p className="text-[10px] sm:text-xs font-heading font-bold tracking-[0.2em] uppercase text-primary/70 mb-3">
             O que nos diferencia
           </p>
-          <h2 className="font-heading font-bold tracking-tight text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
+          <h2 className="font-heading font-bold tracking-tight text-purple-300 text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
             O mercado aluga tendas.
             <span className="block mt-1 md:mt-2">
               Nós construímos um <span className="text-accent">ecossistema</span>.
@@ -71,7 +71,7 @@ export function AntiPositioning() {
           </div>
 
           {/* Coluna direita — A Urânia */}
-          <div className="rounded-lg border-2 border-primary/60 bg-primary/[0.05] p-5 md:p-6 shadow-md shadow-primary/10">
+          <div className="rounded-lg border-2 border-primary/60 bg-primary/[0.05] p-5 md:p-6 shadow-md shadow-primary/7">
             <p className="text-xs font-bold uppercase tracking-wider text-primary mb-4">
               A Urânia entrega
             </p>

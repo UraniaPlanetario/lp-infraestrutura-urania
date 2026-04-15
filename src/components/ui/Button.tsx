@@ -7,8 +7,8 @@ const buttonVariants = cva(
     variants: {
       variant: {
         accent:
-          "bg-accent text-accent-foreground border-2 border-primary/60 hover:shadow-[0_0_20px_rgba(18,79,237,0.4)] font-semibold",
-        hero: "bg-accent text-accent-foreground border-2 border-primary/60 hover:shadow-[0_0_20px_rgba(18,79,237,0.4)] font-bold animate-pulse-glow",
+          "bg-accent text-accent-foreground border-2 border-primary/60 hover:shadow-[0_0_20px_rgba(18,79,237,0.28)] font-semibold",
+        hero: "bg-accent text-accent-foreground border-2 border-primary/60 hover:shadow-[0_0_20px_rgba(18,79,237,0.28)] font-bold animate-pulse-glow",
         default:
           "bg-primary text-primary-foreground shadow-lg hover:scale-105",
         cosmic: "bg-primary text-primary-foreground font-semibold",

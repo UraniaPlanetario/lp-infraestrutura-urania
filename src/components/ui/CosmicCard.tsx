@@ -21,7 +21,7 @@ export function CosmicCard({
         variant === "default" && "bg-card/80 border-border",
         variant === "primary" && "bg-primary/15 border-primary/40",
         variant === "accent" && "bg-accent/10 border-accent/40",
-        hover && "hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/10 cursor-pointer",
+        hover && "hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/7 cursor-pointer",
         className
       )}
     >

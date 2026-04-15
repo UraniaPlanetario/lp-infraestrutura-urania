@@ -79,7 +79,7 @@ export function Journey() {
                 )}
 
                 <div
-                  className={`relative backdrop-blur-sm border-2 ${phase.accent} bg-card/80 rounded-lg p-4 sm:p-5 md:p-6 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/10`}
+                  className={`relative backdrop-blur-sm border-2 ${phase.accent} bg-card/80 rounded-lg p-4 sm:p-5 md:p-6 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/7`}
                 >
                   {/* Número + Label */}
                   <div className="flex items-center gap-3 mb-4">
