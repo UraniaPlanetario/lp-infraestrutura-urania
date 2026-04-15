@@ -40,6 +40,10 @@ Log de ajustes feitos na LP, do mais recente ao mais antigo.
 ### EcosystemPrograms
 - `OutlineStars` substituído por `StarryBackground` (efeito de fundo estrelado do Hero/Journey)
 
+### Fix — logo do Footer
+- Footer voltou a usar o logo original (restaurado do commit `264e0ca`)
+- Novo logo com gradient salvo como `/logo-urania-gradient.png`, usado apenas no card de AboutUrania
+
 ### Infra
 - Repo inicial publicado em `github.com/UraniaPlanetario/lp-infraestrutura-urania` (commit `d281bce`)
 - Segundo commit com todos os ajustes acima: `4d270ed`

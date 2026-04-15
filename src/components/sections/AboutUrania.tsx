@@ -53,7 +53,7 @@ export function AboutUrania() {
             {/* Logo */}
             <div className="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full ring-1 ring-primary/40 overflow-hidden mx-auto sm:mx-0">
               <img
-                src="/logo-urania.png"
+                src="/logo-urania-gradient.png"
                 alt="Urânia Planetários e Observatórios"
                 className="w-full h-full object-cover"
               />
