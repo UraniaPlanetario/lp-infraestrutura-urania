@@ -61,7 +61,7 @@ export function EcosystemPrograms() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative rounded-lg border-2 border-primary/40 bg-primary/[0.06] p-5 sm:p-6 md:p-7 transition-all duration-300 hover:border-primary/70 hover:bg-primary/[0.10] hover:shadow-[0_0_30px_-5px_hsl(263,70%,60%/0.4)] hover:-translate-y-0.5"
+              className="group relative rounded-lg border-2 border-primary/40 bg-primary/[0.06] p-5 sm:p-6 md:p-7 transition-all duration-300 hover:border-primary/70 hover:bg-primary/[0.10] hover:shadow-[0_0_30px_-5px_hsl(223,86%,55%/0.4)] hover:-translate-y-0.5"
             >
               {/* Header com ícone + arrow */}
               <div className="flex items-start justify-between mb-4">

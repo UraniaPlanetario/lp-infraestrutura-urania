@@ -95,7 +95,7 @@ export function AntiPositioning() {
           <p className="text-base md:text-xl font-heading italic text-slate-700 max-w-2xl mx-auto">
             "A próxima geração precisa olhar pro céu novamente — não com
             nostalgia, com{" "}
-            <span className="text-primary font-bold not-italic">método</span>."
+            <span className="text-purple-400 font-bold not-italic">método</span>."
           </p>
         </div>
       </div>

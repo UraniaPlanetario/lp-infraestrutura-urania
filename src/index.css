@@ -6,13 +6,13 @@
   :root {
     --background: 229 35% 6%;
     --foreground: 240 15% 95%;
-    --card: 270 35% 12%;
-    --muted: 270 25% 15%;
-    --muted-foreground: 240 10% 65%;
-    --primary: 280 65% 50%;
-    --primary-glow: 280 75% 60%;
+    --card: 223 35% 12%;
+    --muted: 223 25% 15%;
+    --muted-foreground: 223 10% 65%;
+    --primary: 223 70% 48%;
+    --primary-glow: 223 65% 58%;
     --accent: 45 100% 50%;
-    --border: 270 30% 20%;
+    --border: 223 30% 20%;
     --ring: 45 100% 50%;
     --destructive: 0 62% 30%;
     --radius: 0.75rem;
